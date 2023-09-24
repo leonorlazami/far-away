@@ -32,7 +32,7 @@ Far Away Web App is a simple yet efficient tool for creating and managing your t
 
 ### Live Demo
 
-Try out the live application: [Far Away](https://far-away-9lc7w7rlw-theleonoir.vercel.app/)
+Try out the live application: [Far Away Demo](https://far-away-9lc7w7rlw-theleonoir.vercel.app/)
 
 ## Development
 
