@@ -27,6 +27,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-rows: auto auto 1fr auto;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -78,7 +79,6 @@ input {
   background-color: #5a3e2b;
   color: #ffebb3;
   padding: 4rem 0;
-
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -97,8 +97,7 @@ input {
 
 .list ul {
   list-style: none;
-  width: 80%;
-  /* overflow: scroll; */
+  width: auto;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -133,4 +132,53 @@ input[type="checkbox"] {
   text-align: center;
   font-weight: 700;
   padding: 3.2rem 0;
+}
+
+@media (max-width: 639px) {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+  }
+
+  .app {
+    width: 100%;
+  }
+
+  .add-form {
+    padding: 1.6rem 0;
+    gap: 0.4rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  button,
+  select,
+  input {
+    padding: 1rem 2.4rem;
+    font-size: 1.6rem;
+  }
+
+  .list {
+    width: 100%;
+    padding: 2.4rem 0;
+  }
+
+  .actions button,
+  .list select {
+    padding: 0.6rem 1.6rem;
+    font-size: 1.4rem;
+  }
+
+  .list ul {
+    width: 100%;
+  }
+
+  .stats {
+    padding: 2.4rem 0;
+  }
 }
