@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Far Away 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Far Away Web App is a simple yet efficient tool for creating and managing your travel packing list. Whether you're planning a vacation or a business trip, this app allows you to easily add, organize, and track the items you need to pack, ensuring that you don't forget anything important.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Overview](#overview)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
+  - [Live Demo](#live-demo)
+- [Development](#development)
+  - [Technologies Used](#technologies-used)
+  - [Key Components](#key-components)
+- [Installation](#installation)
+- [Author](#author)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Features
 
-### `npm test`
+- **Add Items:** Quickly add items to your packing list, including a description and quantity.
+- **Item Sorting:** Sort items by input order, description, or packed status for easy organization.
+- **Mark as Packed:** Mark items as packed or unpacked with a checkbox.
+- **Clear List:** Clear your entire packing list with a single click.
+- **Stats:** Get a summary of your packing progress with a percentage of packed items.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshots
 
-### `npm run build`
+![Far Away](https://i.imgur.com/trqCGMv.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Live Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Try out the live application: [Far Away Demo](https://far-away-9lc7w7rlw-theleonoir.vercel.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Development
 
-### `npm run eject`
+### Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React: The core library used for building the user interface and managing components.
+- CSS: Styling is done using CSS to create an intuitive and user-friendly design.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Key Components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Here are some key components of the Packing List Web App:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Form:** Allows users to add items to the packing list with descriptions and quantities.
+- **Packing List:** Displays the list of items, allows users to mark items as packed or unpacked, and provides sorting options.
+- **Stats:** Provides a summary of the packing progress, showing the percentage of items packed.
 
-## Learn More
+## Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone this repository to your local machine using Git: git clone [https://github.com/leonorlazami/far-away](https://github.com/leonorlazami/far-away)
+2. Navigate to the project directory: cd travel-list
+3. Install the required dependencies: npm install
+4. Start the development server : npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Leonor Lazami
+- GitHub: https://github.com/leonorlazami
