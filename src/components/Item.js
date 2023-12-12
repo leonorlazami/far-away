@@ -1,3 +1,5 @@
+import { FiDelete } from "react-icons/fi";
+
 export default function Item({ item, onDeleteItem, onToggleItem }) {
     return (
         <li>
@@ -6,7 +8,8 @@ export default function Item({ item, onDeleteItem, onToggleItem }) {
             <span style={item.packed ? { textDecoration: 'line-through' } : {}}>
                 {item.quantity}     {item.description}
             </span>
-            <button onClick={() => onDeleteItem(item.id)}>❌</button>
+            <button onClick={() => onDeleteItem(item.id)}><FiDelete size={23} />
+            </button>
         </li>
     )
 }
