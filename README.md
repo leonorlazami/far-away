@@ -1,8 +1,8 @@
-# Far Away 
+# Roam Ready
 
 ## Introduction
 
-Far Away Web App is a simple yet efficient tool for creating and managing your travel packing list. Whether you're planning a vacation or a business trip, this app allows you to easily add, organize, and track the items you need to pack, ensuring that you don't forget anything important.
+Roam Ready  is a simple yet efficient tool for creating and managing your travel packing list. Whether you're planning a vacation or a business trip, this app allows you to easily add, organize, and track the items you need to pack, ensuring that you don't forget anything important.
 
 ## Table of Contents
 
@@ -28,11 +28,11 @@ Far Away Web App is a simple yet efficient tool for creating and managing your t
 
 ### Screenshots
 
-![Far Away](https://i.imgur.com/trqCGMv.png)
+![Roam Ready](https://i.imgur.com/cfYBskh.png)
 
 ### Live Demo
 
-Try out the live application: [Far Away Demo](https://far-away-9lc7w7rlw-theleonoir.vercel.app/)
+Try out the live application: [Roam Ready Demo](https://roam-ready-psi.vercel.app/)
 
 ## Development
 
